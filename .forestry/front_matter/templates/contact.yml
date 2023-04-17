@@ -1,4 +1,14 @@
 ---
 label: Contact
 hide_body: true
-fields: []
+fields:
+- name: contact
+  type: blocks
+  template_types:
+  - contact
+  config:
+    min: 
+    max: 
+  label: Contact
+  description: Demo
+  hidden: false
